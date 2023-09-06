@@ -2,6 +2,47 @@
 @import 'config';
 
 
-body{
-    background: linear-gradient(-26.5deg,#565872,#31355b);
+:root{
+    --base:#ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+
+
 }
+
+
+
+body{
+
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+
+
+    .controls{
+        margin-bottom: 50px;
+    }
+
+    input{
+        width: 100px;
+    }
+
+
+
+    .hl{
+        color: var(--base);
+    }
+
+    img{
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
+    }
+  
+}
+
+
+
+
